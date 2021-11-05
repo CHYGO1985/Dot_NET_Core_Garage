@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefelectionTest", "RefelectionTest\RefelectionTest.csproj", "{092213DB-DD28-412F-9A8F-034F59481D12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarLibrary", "CarLibrary\CarLibrary.csproj", "{8E02933E-C4CB-484A-B40B-9D058506C875}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{092213DB-DD28-412F-9A8F-034F59481D12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092213DB-DD28-412F-9A8F-034F59481D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092213DB-DD28-412F-9A8F-034F59481D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092213DB-DD28-412F-9A8F-034F59481D12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E02933E-C4CB-484A-B40B-9D058506C875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E02933E-C4CB-484A-B40B-9D058506C875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E02933E-C4CB-484A-B40B-9D058506C875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E02933E-C4CB-484A-B40B-9D058506C875}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E08A84B9-501D-4C89-97DA-887390F4ECC1}
+	EndGlobalSection
+EndGlobal
