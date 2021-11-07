@@ -17,6 +17,7 @@ namespace Chapter02WebApp.Pages
             _logger = logger;
         }
 
+        // Reponse on HTTP GET 
         public void OnGet()
         {
         }
