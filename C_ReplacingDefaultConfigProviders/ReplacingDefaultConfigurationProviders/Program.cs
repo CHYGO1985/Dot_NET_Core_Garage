@@ -28,9 +28,13 @@ namespace ReplacingDefaultConfigurationProviders
             HostBuilderContext hostingContext,
             IConfigurationBuilder config)
         {
+            var env = hostingContext.HostingEnvironment;
+
             config.Sources.Clear();
             config.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
             config.AddJsonFile("extrasettings.json", optional: false, reloadOnChange: true);
+
+            config.AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: false);
         }
     }
 }
