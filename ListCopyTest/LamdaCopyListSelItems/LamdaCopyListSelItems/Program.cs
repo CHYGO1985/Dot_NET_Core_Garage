@@ -1,16 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
-
-
-//List<int> newNumList = newNumList.Select(num =>
-//{
-    
-//})
-
-//Conskole.WriteLine(a);
-
-//Console.WriteLine("Hello, World!");
-
-
+/**
+ * 
+ * @author jingjiejiang
+ * @history Dec 10, 2021
+ * 
+ */
 namespace Application
 {
     public class Test1
